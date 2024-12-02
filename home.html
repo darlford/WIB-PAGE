@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="home.css"
+      
+    
+</head>
+<body>
+   
+   
+        <ul>
+           <li><a href="about.html" >About</a></li>
+                    <li><a href="contact.html" >contact</a></li>
+                    <h2>Darlford</h2>
+                    
+                         
+         </ul>
+        
+         <img src="joan.jpg" alt="cole.jpg" width="200px"  height="200px"
+         class="trigger image"
+         onclick="openModal()">  
+   <button onclick="openModal()">submit Form </button>
+  <div class="modal-overlay" id="modaloverlay">
+    <div class="modal">
+        <img src="joan.jpg" alt="cole.jpg" >
+        <h1>are you sure you want to submit this form?</h1>
+      <div class="modal-bottons">
+         <button class="confrim" onclick="confirmAction():confirmAction">confirmAction</button>
+         <button class="cancel" onclick="closemodal():closemodal">cancel</button>
+        </div>
+      </div>
+   </div>
+   
+   <script>
+    function openModal() {
+        document.getElementById('modaloverlay') .style.display = 'flex';
+    }
+    function closemodal() {
+        document .getElementById('modaloveral') .style.display ='none';
+    }
+    function confirmAction() {
+        alter('form submitted');
+        confirmAction()
+    }
+
+   </script>
+    
+  
+  
+    <div class="container">                                        
+        <p2>Hello,<br></p2><br>
+        <p2>I'am </p2> <p3>Darlofrd</p3> <br>  
+        <p4>A web Designer</p4> 
+       
+       
+    </div>
+
+    <footer class="footer">
+        <p>@ 2024 Darlford H Cole.<br>
+            All Right Reserved.
+    </footer>
+    
+
+        
+    
+    
+
+</body>
+</html>
